@@ -11,9 +11,7 @@ import { FaSortDown } from "react-icons/fa";
 
 import { motion, AnimatePresence } from 'framer-motion';
 import DescriptionCard from '../context/DescriptionCard';
-import myphoto from '../assets/IMG_20240309_130404_105.jpg'
-import myphoto1 from '../assets/IMG-20231231-WA0001.jpg'
-import myphoto2 from '../assets/IMG-20241013-WA0003.jpg'
+
 const Home = () => {
     const audioRef = useRef(null); // Ref for the audio element
     const [isPlaying, setIsPlaying] = useState(false); // Track play/pause state
@@ -30,10 +28,10 @@ const Home = () => {
     <>
     <main>
     <section id='home' className="pt-[clamp(50px,7vh,100px)] ">
-  <div className="min-h-[calc(100vh-clamp(50px,7vh,100px))] flex items-center bg-[url('/src/assets/IMG_20250430_174707.jpg')] bg-cover bg-center text-white">
+  <div className="min-h-[calc(100vh-clamp(50px,7vh,100px))] flex items-center bg-[url('https://th.bing.com/th/id/OIP.Q3-dQRltGDNvknozglmyaQAAAA?rs=1&pid=ImgDetMain')] bg-cover bg-center text-white">
     <div className='px-5 '>
         <p className='text-4xl font-bold'>Hello, world!</p>
-      <p className='text-xl'> My name is <span className='text-[#FF90BB] font-bold text-2xl'>Shristi Thapa</span>, Welcome to my little space on the internet.</p>
+      <p className='text-xl'> My name is <span className='text-[#FF90BB] font-bold text-2xl'>Name tmiro</span>, Welcome to my little space on the internet.</p>
     </div>
   </div>
   <button
@@ -103,21 +101,21 @@ const Home = () => {
           
           <div className='py-2 text-xl'>
             <p>Life doesn't always go as planned, but somehow it still leads you where you need to be.</p>
-            <p className='text-right '> - Shristi</p>
+            <p className='text-right '> - Tmiro name</p>
           </div>
           <p className='text-md font-semibold my-2 flex items-center gap-1'><RiMemoriesFill />-Memories-</p>
           <div className='flex flex-col gap-4'>
             <div>
             <p className='flex gap-1 text-sm items-center'>Date: 2025-May-02<FaSortDown /></p>
-            <DescriptionCard pic={myphoto} description="That quiet moment with the book was more than just a photo—it was a pause in time where I truly connected with myself. As I turned each page, I didn't just read words; I felt seen. That day, the book reminded me that growth doesn't always have to be loud—sometimes, it's in stillness where we understand the most. The lesson I took with me: healing and strength often start in silence. This memory will always remind me how powerful a simple moment of self-reflection can be."/>
+            <DescriptionCard pic="https://static.vecteezy.com/system/resources/previews/027/197/464/original/hand-drawn-korean-drawing-style-character-illustration-beautiful-girl-reading-book-flat-illustration-isolated-on-white-background-vector.jpg" description="That quiet moment with the book was more than just a photo—it was a pause in time where I truly connected with myself. As I turned each page, I didn't just read words; I felt seen. That day, the book reminded me that growth doesn't always have to be loud—sometimes, it's in stillness where we understand the most. The lesson I took with me: healing and strength often start in silence. This memory will always remind me how powerful a simple moment of self-reflection can be."/>
             </div>
             <div>
             <p className='flex gap-1 text-sm items-center'>Date: 2025-May-02<FaSortDown /></p>
-            <DescriptionCard pic={myphoto1} description="In that sacred space, everything felt still—my heart, my mind, my worries. Being there reminded me that no matter how busy or lost life feels, peace is always waiting when you pause and reconnect with faith. It wasn't just a visit—it was a moment my soul needed, and I still carry that calm with me."/>
+            <DescriptionCard pic="https://static.vecteezy.com/system/resources/previews/027/197/464/original/hand-drawn-korean-drawing-style-character-illustration-beautiful-girl-reading-book-flat-illustration-isolated-on-white-background-vector.jpg" description="In that sacred space, everything felt still—my heart, my mind, my worries. Being there reminded me that no matter how busy or lost life feels, peace is always waiting when you pause and reconnect with faith. It wasn't just a visit—it was a moment my soul needed, and I still carry that calm with me."/>
             </div>
             <div>
             <p className='flex gap-1 text-sm items-center'>Date: 2025-May-02<FaSortDown /></p>
-            <DescriptionCard pic={myphoto2} description="Wandering through unfamiliar streets far from home, I realized something beautiful—sometimes you have to step outside your world to discover parts of yourself you didn't know were missing. Japan didn't just give me memories, it gave me perspective, quiet growth, and a deep appreciation for every little moment."/>
+            <DescriptionCard pic="https://static.vecteezy.com/system/resources/previews/027/197/464/original/hand-drawn-korean-drawing-style-character-illustration-beautiful-girl-reading-book-flat-illustration-isolated-on-white-background-vector.jpg" description="Wandering through unfamiliar streets far from home, I realized something beautiful—sometimes you have to step outside your world to discover parts of yourself you didn't know were missing. Country(of you are) didn't just give me memories, it gave me perspective, quiet growth, and a deep appreciation for every little moment."/>
             </div>
 
           </div>
@@ -128,7 +126,7 @@ const Home = () => {
       <section className='bg-[#FFC1DA]'>
         <div className='py-8 flex flex-col gap-2'>
           <div className='flex justify-center items-center text-md text-[#ff448c] font-semibold '>
-            <p className='border-r-[0.5px] pr-1 tracking-wide'>Shristi Thapa</p>
+            <p className='border-r-[0.5px] pr-1 tracking-wide'>Your Name</p>
             <p className='border-l-[0.5px] pl-1 tracking-wide'>Beautiful Person</p>
           </div>
           <div className='flex justify-center items-center gap-2'>
