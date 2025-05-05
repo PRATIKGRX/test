@@ -24,7 +24,7 @@ const Navbar = () => {
         <nav className="">
           <ul className="w-full fixed top-0 right-0 left-0 flex items-center px-4 justify-between min-h-[clamp(50px,7vh,100px)] text-xl text-white font-bold bg-[#FF90BB] shadow-2xl shadow-[#4e4e4e]">
             <li>
-              <p>Shristi Thapa</p>
+              <p>Your Name</p>
             </li>
             <li className="flex items-center">
               <button onClick={openNav}>
